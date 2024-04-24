@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbffff;
+}
+
+.wrapper_body {
+    background-color: white;
+    margin: 0 auto;
+    width: 1140px;
+    height: 100vh;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #ffef98;
+}
+
+.navigate a {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+}
+
+.navigate a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.counter h1 {
+    text-align: center;
+}
+
+.count {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.counter_button {
+    display: flex;
+    justify-content: center;
+}
+
+.counter_button button{
+    width: 100px;
+    height: 40px;
+}

@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <h1 id="tor">Torwald course</h1>
+<div class="wrapper_body">
+    <header>
+        <nav class="navigate">
+            <a id="mainButton" href="#">Главная страница</a>
+            <a id="contactsButton" href="#">Контакты</a>
+            <a id="socialButton" href="#">Блог</a>
+        </nav>
+    </header>
+    <main>
+        <div class="counter">
+            <h1>Counter</h1>
+            <div class="count" id="count"></div>
+            <div class="counter_button">
+                <button id="incButton">inc</button>
+                <button id="dicButton">dic</button>
+            </div>
+        </div>
+    </main>
 </div>
-<a href="https://google.com" id="a">Google</a>
-<script src="codeWars.js"></script>
 </body>
+<script src="codeWars.js"></script>
 </html>
